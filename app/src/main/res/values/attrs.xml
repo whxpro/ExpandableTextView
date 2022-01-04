@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <!--保留的行数-->
+        <attr name="etv_max_line" format="integer" />
+        <!--是否需要展开-->
+        <attr name="etv_show_expand" format="boolean" />
+        <!--是否需要收起 这个是建立在开启展开的基础上的-->
+        <attr name="etv_show_fold" format="boolean" />
+        <!--是否需要动画-->
+        <attr name="etv_need_animation" format="boolean" />
+        <!--是否需要永远将展开或者收回放置在最后边-->
+        <attr name="etv_always_showright" format="boolean" />
+        <!--收起的文案-->
+        <attr name="etv_fold_text" format="string" />
+        <!--展开的文案-->
+        <attr name="etv_expand_text" format="string" />
+        <!--展开的文字的颜色-->
+        <attr name="etv_expand_color" format="color" />
+        <!--收起的文字的颜色-->
+        <attr name="etv_fold_color" format="color" />
+        <!--在收回和展开前面添加的内容的字体颜色-->
+        <attr name="etv_end_color" format="color" />
+
+    </declare-styleable>
+</resources>
